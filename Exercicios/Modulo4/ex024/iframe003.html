@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro illum beatae adipisci eum veritatis deleniti id, perspiciatis laudantium perferendis eius quam, illo facere earum? Laboriosam mollitia nobis in accusamus vero.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore quibusdam eligendi possimus aut earum quia, eius nam fuga, labore pariatur placeat quidem officiis consequuntur dolorum dolore quis odio nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis hic qui velit voluptatum iste ducimus voluptas id dignissimos, provident tenetur numquam cumque asperiores fugiat soluta excepturi impedit culpa laudantium odio!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore quibusdam eligendi possimus aut earum quia, eius nam fuga, labore pariatur placeat quidem officiis consequuntur dolorum dolore quis odio nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><img src='imagens/favicon.ico'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius atque numquam ratione labore sed eum illo, quasi ab asperiores! Harum dolorem ipsum ea ducimus molestias itaque aut eius quod totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt? Esse vero accusantium, sapiente alias veniam repellat aliquid mollitia enim perferendis vitae quas et molestiae ratione quibusdam, exercitationem nihil ipsum!</p>
+</body>
+</html>
